@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://img.icons8.com/ios-glyphs/30/clock--v3.png">
+  <title>Digital clock</title>
+</head>
+<body>
+  <header>
+    <div class="homdiv"><button class="hom" id="hom">HOME</button></div>
+    <div class="head"><h1>Digital clock</h1></div>
+  </header>
+  <main>
+    <div class="side">
+      <h2>Features</h2><br>
+      <button onclick="window.open('stopw.html', '_blank')">Stop Watch</button><br>
+      <button onclick="window.open('alarm.html', '_blank')">Alarm</button><br>
+      <button onclick="window.open('timer.html', '_blank')">Timer</button>
+    </div>
+    <div class="clock">
+      <div class="hr" id="hr">00</div>
+      <div style="font-size: 50px;">:</div>
+      <div class="mi" id="mi">00</div>
+      <div style="font-size: 50px;">:</div>
+      <div class="sc" id="sc">00</div>
+      <div id="apm"></div>
+    </div>
+    <div class="formats">
+      <h2>Customizations</h2><br>
+      <button id="formattime" onclick="changeformat()">12-hour</button><br>
+      <!-- <button id="theme">Dark</button> -->
+    </div>
+  </main>
+  <footer>
+    <div class="left">
+      <p>&copy;Vivek Boyina</p>
+      <p>Mail to : <a href="mailto:vivekboyina77@gmail.com">vivekboyina77@gmail.com</a></p>
+      <p>Mobile : 8106464623</p>
+    </div>
+    <div class="right">
+      <a href="https://www.linkedin.com/in/vivek-boyina-89148a306/?originalSubdomain=in" target="_blank"><img width="45" height="45" src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/></a>
+      <a href="https://x.com/VivekBoyina07" target="_blank"><img width="45" height="45" src="https://img.icons8.com/color/48/twitterx--v1.png" alt="twitterx--v1"/></a>
+    </div>
+  </footer>
+  <script type="module" src="script.js"></script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>

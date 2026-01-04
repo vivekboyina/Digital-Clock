@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #ffffff;
+}
+header{
+  height: 20vh;
+  text-align: center;
+  border-bottom: 2px solid #1c1c1e;
+  display: flex;
+}
+.hh1{
+  height: 10vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+h1{
+  font-size: 60px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.homdiv{
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hom{
+  background: #e3f2fd;
+  backdrop-filter: blur(10px);
+  border-radius: 50%;
+  font-size: 15px;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+.clock{
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+}
+.hr,.mi,.sc{
+  color: #1c1c1e;
+  height: 40px;
+  width: 40px;
+  background-color: #e6f4ea;
+  border:  solid #1c1c1e;
+  border-radius: 15px;
+  align-content: center;
+  text-align: center;
+  font-size: 30px;
+}
+.apm{
+  color: #1c1c1e;
+  height: 30px;
+  width: 30px;
+  background-color: #e6f4ea;
+  border:  solid #1c1c1e;
+  border-radius: 10px;
+  align-content: center;
+  text-align: center;
+  font-size: 15px;
+}
+.stpdiv{
+  align-self: center;
+  display: flex;
+  justify-content: start;
+  width: 10vw;
+}
+.stp{
+  cursor: pointer;
+  background-color: #e3f2fd;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+main{
+  height: 60vh;
+  display: flex;
+}
+.side{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  height: 60vh;
+  border-right: 2px solid #1c1c1e;
+}
+.set{
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  background: #e3f2fd;
+  cursor: pointer;
+}
+.clocky{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid #1c1c1e;
+  gap: 20px;
+  width: 80vw;
+  height: 60vh;
+}
+.hry,.miy,.scy{
+  color: #1c1c1e;
+  height: 200px;
+  width: 200px;
+  background-color: #e6f4ea;
+  border:  solid #1c1c1e;
+  border-radius: 50px;
+  align-content: center;
+  text-align: center;
+  font-size: 100px;
+}
+footer{
+  height: 20vh;
+  background-color: #1c1c1e;
+  display: flex;
+}
+.left
+{
+  color: #ffffff;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50vw;
+}
+.left a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.right{
+  width: 50vw;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
