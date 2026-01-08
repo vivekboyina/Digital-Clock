@@ -39,7 +39,7 @@ h1{
   font-size: 60px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.side button{
+.side button,#formattime{
   background: #e3f2fd;
   backdrop-filter: blur(10px);
   border-radius: 25px;
@@ -113,4 +113,5 @@ footer{
   align-items: center;
   display: flex;
   justify-content: center;
+
 }
